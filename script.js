@@ -92,12 +92,3 @@ document.addEventListener('DOMContentLoaded', () => {
         setLanguage('pt');
     }
 });
-document.querySelectorAll('.language-switcher a').forEach(link => {
-    if (link.getAttribute('data-lang') === lang) {
-        link.classList.add('active');
-    } else {
-        link.classList.remove('active');
-    }
-});
-
-
